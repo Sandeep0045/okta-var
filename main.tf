@@ -15,7 +15,7 @@ resource "okta_user" "two44" {
 resource "okta_group" "exa44" {
   name        = var.name
   description = var.description
-  lifecycle {
-    prevent_destroy = true
+    lifecycle {
+            prevent_destroy = true
 }
 }
