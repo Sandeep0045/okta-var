@@ -18,4 +18,4 @@ resource "okta_group" "exa44" {
   lifecycle {
     prevent_destroy = true
 }
-
+}
