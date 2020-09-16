@@ -4,7 +4,7 @@ provider "okta" {
   api_token = "00DOd-xVcpbabW_7mSE48RZyb6Jo94-1o1rmnJ_GYf"
 }
 
-resource "okta_user" "two44" {
+resource "okta_user" "jp" {
   first_name = var.first_name
   last_name  = var.last_name
   login      = var.login
@@ -12,7 +12,7 @@ resource "okta_user" "two44" {
   status     = "STAGED"
 }
 
-resource "okta_group" "exa44" {
+resource "okta_group" "jp" {
   name        = var.name
   description = var.description
     lifecycle {
